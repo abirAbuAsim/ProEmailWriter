@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_learn_steps"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.absak.proemailwriter.LearnStepsActivity">
+
+    <TextView
+        android:id="@+id/learn_steps_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:text="@string/learn_steps_title"
+        android:textColor="#0fbf15"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/step_1_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/learn_steps_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:onClick=""
+        android:text="@string/step_1_text"
+        android:textSize="20dp"/>
+
+
+    <Button
+        android:id="@+id/step_2_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_1_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:onClick=""
+        android:text="@string/step_2_text"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/step_3_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_2_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:onClick=""
+        android:text="@string/step_3_text"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/step_4_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/step_3_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20sp"
+        android:layout_marginRight="20sp"
+        android:onClick=""
+        android:text="@string/step_4_text"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
