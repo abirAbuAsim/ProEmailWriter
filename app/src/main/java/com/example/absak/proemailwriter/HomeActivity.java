@@ -23,6 +23,7 @@ public class HomeActivity extends Activity {
     // takes from home activity to actually writing an actual Email
     // by following the steps in the learning activity
     public void goToWrite(View view){
-
+        Intent intent = new Intent(this, WriteEmailActivity.class);
+        startActivity(intent);
     }
 }

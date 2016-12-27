@@ -8,4 +8,14 @@
     <string name="step_2_text">Step 2:\nWrite an Effective Subject Line</string>
     <string name="step_3_text">Step 3:\nMaintain proper Email body and content</string>
     <string name="step_4_text">Step 4:\nFollow some standard Email etiquette</string>
+    <string name="salutation_text">Enter Salutation:</string>
+    <string name="salutation_hint_text">Dear Sir/Madam, ...</string>
+    <string name="intro_text">Enter a brief Intro of the Mail</string>
+    <string name="intro_hint_text">Thank the recipient, Identify yourself clearly</string>
+    <string name="purpose_text">State your purpose clearly</string>
+    <string name="purpose_hint_text">writing for the position of Developer...</string>
+    <string name="closing_text">Add Closing Remarks</string>
+    <string name="closing_hint_text">Hoping to getting a reply from you soon...</string>
+    <string name="make_my_email_button">Make My Email</string>
+    <string name="chooser">Send Message Via ...</string>
 </resources>
